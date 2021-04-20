@@ -2,7 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const App = () =>{
-  return <h1> hello</h1>
+  return(
+    <div className = "header">
+      hello 
+    </div>
+  )
 }
 
 ReactDOM.render(<App />, document.getElementById('root'));
